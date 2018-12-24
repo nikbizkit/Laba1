@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard1.6</TargetFramework>
+        <RootNamespace>Lab_5</RootNamespace>
+        <PackageVersion>1.0</PackageVersion>
+        <Title>Lab 5</Title>
+        <Copyright>Copyright © 2018</Copyright>
+        <Description>Description of Lab 5</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Eto.Forms" Version="2.4.1" />
+        <PackageReference Include="Eto.Platform.Mac64" Version="2.4.1" />
+    </ItemGroup>
+
+</Project>

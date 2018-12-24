@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard1.6</TargetFramework>
+        <RootNamespace>Lab_4</RootNamespace>
+        <PackageVersion>1.0</PackageVersion>
+        <Title>Lab 4</Title>
+        <Copyright>Copyright © 2018</Copyright>
+        <Description>Description of Lab 4</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Eto, Version=2.4.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\..\.nuget\packages\eto.forms\2.4.1\lib\netstandard1.0\Eto.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Eto.Forms" Version="2.4.1" />
+      <PackageReference Include="Eto.Platform.Mac64" Version="2.4.1" />
+    </ItemGroup>
+
+</Project>
